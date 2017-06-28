@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C97116211F039DE0001E3F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C97116201F039DE0001E3F4E /* main.m */; };
+		C97116241F039DE0001E3F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C97116231F039DE0001E3F4E /* AppDelegate.m */; };
+		C97116271F039DE0001E3F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97116261F039DE0001E3F4E /* ViewController.m */; };
+		C971162A1F039DE0001E3F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97116281F039DE0001E3F4E /* Main.storyboard */; };
+		C971162C1F039DE0001E3F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C971162B1F039DE0001E3F4E /* Assets.xcassets */; };
+		C971162F1F039DE0001E3F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C971162D1F039DE0001E3F4E /* LaunchScreen.storyboard */; };
+		C971163A1F039DE0001E3F4E /* XLAuthCodeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97116391F039DE0001E3F4E /* XLAuthCodeViewTests.m */; };
+		C97116451F039DE0001E3F4E /* XLAuthCodeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97116441F039DE0001E3F4E /* XLAuthCodeViewUITests.m */; };
+		C97116551F039E35001E3F4E /* XLAuthCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C97116541F039E35001E3F4E /* XLAuthCodeView.m */; };
+		C97116581F03A144001E3F4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97116571F03A144001E3F4E /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C97116361F039DE0001E3F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97116141F039DE0001E3F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C971161B1F039DE0001E3F4E;
+			remoteInfo = XLAuthCodeView;
+		};
+		C97116411F039DE0001E3F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97116141F039DE0001E3F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C971161B1F039DE0001E3F4E;
+			remoteInfo = XLAuthCodeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C971161C1F039DE0001E3F4E /* XLAuthCodeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLAuthCodeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97116201F039DE0001E3F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C97116221F039DE0001E3F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C97116231F039DE0001E3F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C97116251F039DE0001E3F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C97116261F039DE0001E3F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C97116291F039DE0001E3F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C971162B1F039DE0001E3F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C971162E1F039DE0001E3F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C97116301F039DE0001E3F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97116351F039DE0001E3F4E /* XLAuthCodeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLAuthCodeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97116391F039DE0001E3F4E /* XLAuthCodeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAuthCodeViewTests.m; sourceTree = "<group>"; };
+		C971163B1F039DE0001E3F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97116401F039DE0001E3F4E /* XLAuthCodeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLAuthCodeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97116441F039DE0001E3F4E /* XLAuthCodeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAuthCodeViewUITests.m; sourceTree = "<group>"; };
+		C97116461F039DE0001E3F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97116531F039E35001E3F4E /* XLAuthCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAuthCodeView.h; sourceTree = "<group>"; };
+		C97116541F039E35001E3F4E /* XLAuthCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAuthCodeView.m; sourceTree = "<group>"; };
+		C97116571F03A144001E3F4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97116191F039DE0001E3F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97116581F03A144001E3F4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97116321F039DE0001E3F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C971163D1F039DE0001E3F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C97116131F039DE0001E3F4E = {
+			isa = PBXGroup;
+			children = (
+				C971161E1F039DE0001E3F4E /* XLAuthCodeView */,
+				C97116381F039DE0001E3F4E /* XLAuthCodeViewTests */,
+				C97116431F039DE0001E3F4E /* XLAuthCodeViewUITests */,
+				C971161D1F039DE0001E3F4E /* Products */,
+				C97116561F03A144001E3F4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C971161D1F039DE0001E3F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C971161C1F039DE0001E3F4E /* XLAuthCodeView.app */,
+				C97116351F039DE0001E3F4E /* XLAuthCodeViewTests.xctest */,
+				C97116401F039DE0001E3F4E /* XLAuthCodeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C971161E1F039DE0001E3F4E /* XLAuthCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				C97116221F039DE0001E3F4E /* AppDelegate.h */,
+				C97116231F039DE0001E3F4E /* AppDelegate.m */,
+				C97116251F039DE0001E3F4E /* ViewController.h */,
+				C97116261F039DE0001E3F4E /* ViewController.m */,
+				C97116521F039E1C001E3F4E /* XLAuthCodeView */,
+				C97116281F039DE0001E3F4E /* Main.storyboard */,
+				C971162B1F039DE0001E3F4E /* Assets.xcassets */,
+				C971162D1F039DE0001E3F4E /* LaunchScreen.storyboard */,
+				C97116301F039DE0001E3F4E /* Info.plist */,
+				C971161F1F039DE0001E3F4E /* Supporting Files */,
+			);
+			path = XLAuthCodeView;
+			sourceTree = "<group>";
+		};
+		C971161F1F039DE0001E3F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97116201F039DE0001E3F4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C97116381F039DE0001E3F4E /* XLAuthCodeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97116391F039DE0001E3F4E /* XLAuthCodeViewTests.m */,
+				C971163B1F039DE0001E3F4E /* Info.plist */,
+			);
+			path = XLAuthCodeViewTests;
+			sourceTree = "<group>";
+		};
+		C97116431F039DE0001E3F4E /* XLAuthCodeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C97116441F039DE0001E3F4E /* XLAuthCodeViewUITests.m */,
+				C97116461F039DE0001E3F4E /* Info.plist */,
+			);
+			path = XLAuthCodeViewUITests;
+			sourceTree = "<group>";
+		};
+		C97116521F039E1C001E3F4E /* XLAuthCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				C97116531F039E35001E3F4E /* XLAuthCodeView.h */,
+				C97116541F039E35001E3F4E /* XLAuthCodeView.m */,
+			);
+			path = XLAuthCodeView;
+			sourceTree = "<group>";
+		};
+		C97116561F03A144001E3F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97116571F03A144001E3F4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C971161B1F039DE0001E3F4E /* XLAuthCodeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97116491F039DE0001E3F4E /* Build configuration list for PBXNativeTarget "XLAuthCodeView" */;
+			buildPhases = (
+				C97116181F039DE0001E3F4E /* Sources */,
+				C97116191F039DE0001E3F4E /* Frameworks */,
+				C971161A1F039DE0001E3F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLAuthCodeView;
+			productName = XLAuthCodeView;
+			productReference = C971161C1F039DE0001E3F4E /* XLAuthCodeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C97116341F039DE0001E3F4E /* XLAuthCodeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C971164C1F039DE0001E3F4E /* Build configuration list for PBXNativeTarget "XLAuthCodeViewTests" */;
+			buildPhases = (
+				C97116311F039DE0001E3F4E /* Sources */,
+				C97116321F039DE0001E3F4E /* Frameworks */,
+				C97116331F039DE0001E3F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97116371F039DE0001E3F4E /* PBXTargetDependency */,
+			);
+			name = XLAuthCodeViewTests;
+			productName = XLAuthCodeViewTests;
+			productReference = C97116351F039DE0001E3F4E /* XLAuthCodeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C971163F1F039DE0001E3F4E /* XLAuthCodeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C971164F1F039DE0001E3F4E /* Build configuration list for PBXNativeTarget "XLAuthCodeViewUITests" */;
+			buildPhases = (
+				C971163C1F039DE0001E3F4E /* Sources */,
+				C971163D1F039DE0001E3F4E /* Frameworks */,
+				C971163E1F039DE0001E3F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97116421F039DE0001E3F4E /* PBXTargetDependency */,
+			);
+			name = XLAuthCodeViewUITests;
+			productName = XLAuthCodeViewUITests;
+			productReference = C97116401F039DE0001E3F4E /* XLAuthCodeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C97116141F039DE0001E3F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaolin.han;
+				TargetAttributes = {
+					C971161B1F039DE0001E3F4E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U2DK25PEUY;
+						ProvisioningStyle = Automatic;
+					};
+					C97116341F039DE0001E3F4E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U2DK25PEUY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C971161B1F039DE0001E3F4E;
+					};
+					C971163F1F039DE0001E3F4E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U2DK25PEUY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C971161B1F039DE0001E3F4E;
+					};
+				};
+			};
+			buildConfigurationList = C97116171F039DE0001E3F4E /* Build configuration list for PBXProject "XLAuthCodeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C97116131F039DE0001E3F4E;
+			productRefGroup = C971161D1F039DE0001E3F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C971161B1F039DE0001E3F4E /* XLAuthCodeView */,
+				C97116341F039DE0001E3F4E /* XLAuthCodeViewTests */,
+				C971163F1F039DE0001E3F4E /* XLAuthCodeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C971161A1F039DE0001E3F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C971162F1F039DE0001E3F4E /* LaunchScreen.storyboard in Resources */,
+				C971162C1F039DE0001E3F4E /* Assets.xcassets in Resources */,
+				C971162A1F039DE0001E3F4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97116331F039DE0001E3F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C971163E1F039DE0001E3F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97116181F039DE0001E3F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97116271F039DE0001E3F4E /* ViewController.m in Sources */,
+				C97116241F039DE0001E3F4E /* AppDelegate.m in Sources */,
+				C97116211F039DE0001E3F4E /* main.m in Sources */,
+				C97116551F039E35001E3F4E /* XLAuthCodeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97116311F039DE0001E3F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C971163A1F039DE0001E3F4E /* XLAuthCodeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C971163C1F039DE0001E3F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97116451F039DE0001E3F4E /* XLAuthCodeViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C97116371F039DE0001E3F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C971161B1F039DE0001E3F4E /* XLAuthCodeView */;
+			targetProxy = C97116361F039DE0001E3F4E /* PBXContainerItemProxy */;
+		};
+		C97116421F039DE0001E3F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C971161B1F039DE0001E3F4E /* XLAuthCodeView */;
+			targetProxy = C97116411F039DE0001E3F4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C97116281F039DE0001E3F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C97116291F039DE0001E3F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C971162D1F039DE0001E3F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C971162E1F039DE0001E3F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C97116471F039DE0001E3F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C97116481F039DE0001E3F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C971164A1F039DE0001E3F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = XLAuthCodeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxl.com.XLAuthCodeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C971164B1F039DE0001E3F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = XLAuthCodeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxl.com.XLAuthCodeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C971164D1F039DE0001E3F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = XLAuthCodeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxl.com.XLAuthCodeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLAuthCodeView.app/XLAuthCodeView";
+			};
+			name = Debug;
+		};
+		C971164E1F039DE0001E3F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = XLAuthCodeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxl.com.XLAuthCodeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLAuthCodeView.app/XLAuthCodeView";
+			};
+			name = Release;
+		};
+		C97116501F039DE0001E3F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = XLAuthCodeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxl.com.XLAuthCodeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLAuthCodeView;
+			};
+			name = Debug;
+		};
+		C97116511F039DE0001E3F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U2DK25PEUY;
+				INFOPLIST_FILE = XLAuthCodeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hxl.com.XLAuthCodeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLAuthCodeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97116171F039DE0001E3F4E /* Build configuration list for PBXProject "XLAuthCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97116471F039DE0001E3F4E /* Debug */,
+				C97116481F039DE0001E3F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97116491F039DE0001E3F4E /* Build configuration list for PBXNativeTarget "XLAuthCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C971164A1F039DE0001E3F4E /* Debug */,
+				C971164B1F039DE0001E3F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C971164C1F039DE0001E3F4E /* Build configuration list for PBXNativeTarget "XLAuthCodeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C971164D1F039DE0001E3F4E /* Debug */,
+				C971164E1F039DE0001E3F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C971164F1F039DE0001E3F4E /* Build configuration list for PBXNativeTarget "XLAuthCodeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97116501F039DE0001E3F4E /* Debug */,
+				C97116511F039DE0001E3F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C97116141F039DE0001E3F4E /* Project object */;
+}
